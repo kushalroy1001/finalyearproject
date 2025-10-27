@@ -21,13 +21,5 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000 in your browser.
 
-How to add your Sketchfab embed
-- Edit `src/data/plants.js` and replace the `sketchfabEmbed` placeholder comment with the full iframe/embed HTML from Sketchfab for that plant.
-- The `SketchfabEmbed` component sanitizes the HTML using DOMPurify before rendering.
 
-Next steps (I can do for you)
-- Implement authentication, favorites, and API integration (Node.js + MongoDB)
-- Add Recommendation Wizard and chatbot UI
-- Improve SEO (Next.js server-side rendering) and accessibility
